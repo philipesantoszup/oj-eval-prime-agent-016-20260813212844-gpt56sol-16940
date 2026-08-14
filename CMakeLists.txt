@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.10)
+project(file_storage_bpt LANGUAGES CXX)
+add_executable(code main.cpp)
+target_compile_features(code PRIVATE cxx_std_17)
+target_compile_options(code PRIVATE -O2 -Wall -Wextra)
